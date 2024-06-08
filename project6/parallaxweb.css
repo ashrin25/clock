@@ -1,0 +1,63 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+.pimg1{
+    background-image: url(image1.png);
+    min-height: 100%;
+
+}
+
+.pimg2 {
+    background-image: url(image2.png);
+    min-height: 700px;
+}
+
+.pimg3{
+    background-image: url(image3.png);
+    min-height: 600px;
+}
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptxt{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: darkgray;
+    color: #fff;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 3px 5px 4px;
+}
+.section{
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.section.section-light{
+    background-color: #313435;
+    color: #f9eeee;
+}
+.section.section-dark{
+    background-color: #313435;
+    color: #ddd;
+}
